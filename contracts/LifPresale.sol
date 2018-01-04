@@ -105,7 +105,7 @@ characteristics of the Project. Attached hereto as Exhibit C.
 Purchase, Sale and Distribution of Tokens
 On the Token Distribution Event, Company shall deliver to Buyer a number of
 Project Tokens calculated by the following formula:
-x=Pt∗(1+b)
+x=P/t∗(1+b)
 where “x” is the number of tokens that the Buyer will receive after the Token
 Distribution Event, “P” is Purchase Price, “t” is Token Price (determined at the
 end of the Token Distribution Event) and “b” is Bonus Rate (e.g. 0.1 for 10%).
@@ -401,7 +401,7 @@ contract LifPresale is Ownable, Pausable {
      @dev Constructor. Creates the LifPresale contract
      The contract can start with some wei already raised, it will
      also have a maximun amount of wei to be raised and a wallet
-     address where all funds will be forwarded inmediatly.
+     address where all funds will be forwarded immediatly.
 
      @param _weiRaised see `weiRaised`
      @param _maxCap see `maxCap`
